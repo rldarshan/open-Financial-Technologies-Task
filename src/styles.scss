@@ -1,1 +1,48 @@
+// @use '~@angular/material' as mat;
+
+// $custom-color: (
+//   0: #663399,
+//   contrast: ()
+// );
+
+// @include mat.core();
+// $my-palette: mat.$custom-color;
+
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif !important;
+}
+
+
+.mat-drawer-inner-container {
+  width: 50vw !important;
+}
+
+.example-container .menu-option {
+  padding: 10px 0;
+}
+
+.menu-option-close {
+  display: flex !important;
+  justify-content: flex-end;
+}
+
+// .mat-button,
+// .mat-icon-button :hover,
+// .mat-stroked-button :hover,
+// .mat-flat-button :hover {
+//   color: purple;
+// }
+
+@media screen and (min-width: 800px) {
+  .mat-toolbar-row,
+  .mat-toolbar-single-row {
+    padding: 0 100px !important;
+  }
+}

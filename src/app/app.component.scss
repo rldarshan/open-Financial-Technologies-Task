@@ -1,0 +1,265 @@
+.example-icon {
+  padding: 0 14px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.app-logo {
+  width: 30%;
+}
+
+.header-menu a {
+  font-size: 25px;
+  color: #222222;
+  text-align: left;
+  font-weight: 100;
+  letter-spacing: 0px;
+  font-family: sans-serif;
+  //   font: normal normal normal 25px/34px Open Sans;
+}
+
+.menu-option {
+  //   display: grid;
+
+  a {
+    margin: 10px;
+  }
+}
+
+.login-btn {
+  margin: 0 20px;
+  padding: 0 30px;
+  border-radius: 23px;
+  color: #663399 !important;
+  font-size: 16px !important;
+  border: 2px solid #663399;
+  box-shadow: 0px 0px 20px #00000033;
+}
+
+.login-btn :hover {
+  background-color: #663399 !important;
+}
+
+.get-started-btn {
+  padding: 2px 30px;
+  border-radius: 24px;
+  color: #ffffff !important;
+  font-size: 16px !important;
+  box-shadow: 0px 0px 20px #00000033;
+  background: transparent linear-gradient(90deg, #9f62c9 0%, #663399 100%) 0% 0%
+    no-repeat padding-box;
+}
+
+.small-circle {
+  z-index: 0;
+  width: 27vw;
+  margin-top: -11%;
+  margin-left: -100px;
+  position: absolute;
+}
+
+.big-circle {
+  top: -7vw;
+  z-index: 0;
+  width: 45vw;
+  right: -3vw;
+  float: right;
+  position: relative;
+  transform: rotate(156deg);
+}
+
+.hand-shake-pic {
+  width: 33vw;
+  margin-left: 7vw;
+  margin-top: 60px;
+}
+
+.dots-img {
+  width: 23%;
+  margin-top: -30px;
+  margin-left: 22%;
+}
+
+.dots-img-2 {
+  width: 23%;
+  float: right;
+  right: 25px;
+  position: relative;
+}
+
+.text-msg {
+  width: 250px;
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 400;
+  margin-left: 10vw;
+  margin-top: 15%;
+  font-family: inherit;
+  //   background-color: red;
+}
+
+.black-line {
+  width: 60%;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 3px solid black;
+}
+
+.form {
+  float: right;
+  display: flex;
+  margin-top: -35%;
+  margin-right: 6%;
+}
+
+.outer-div {
+  display: flex;
+  align-items: center;
+}
+
+.eligibility-calculator {
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  //   background-color: green;
+  box-shadow: 0px 2px 5px 2px #dfdfdf;
+
+  .title {
+    padding: 10px;
+    display: block;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    background-color: #ededed;
+  }
+
+  .container {
+    display: grid;
+    padding: 20px 25px;
+
+    .main-label {
+      font-size: 12px;
+      font-weight: 100;
+    }
+
+    .toggle {
+      margin-left: 10px;
+    }
+
+    .income-range {
+      color: grey;
+      display: flex;
+      font-size: 11px;
+      margin-top: -20px;
+      justify-content: space-between;
+    }
+
+    .form-control {
+      width: 100%;
+      line-height: 3;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+      border-bottom: 2px solid grey;
+    }
+
+    .form-control :focus {
+        border: none;
+    }
+
+    .example-container .mat-form-field + .mat-form-field {
+      margin-left: 8px;
+    }
+
+    .example-right-align {
+      text-align: right;
+    }
+
+    input.example-right-align::-webkit-outer-spin-button,
+    input.example-right-align::-webkit-inner-spin-button {
+      display: none;
+    }
+
+    input.example-right-align {
+      -moz-appearance: textfield;
+    }
+  }
+}
+
+.loan-amount {
+  width: 150px;
+  height: 300px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6b389d;
+  border-radius: 0 20px 20px 0;
+
+  .inner-div {
+    display: grid;
+    text-align: center;
+
+    .amount {
+      font-size: 19px;
+    }
+
+    .get-money-btn {
+      border: none;
+      color: purple;
+      padding: 10px 20px;
+      border-radius: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hand-shake-pic {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .text-msg {
+    margin: 0;
+    width: 100%;
+    margin-top: 4%;
+    font-size: 25px;
+
+    .black-line {
+      display: none;
+    }
+  }
+  .small-circle {
+    margin-top: 5%;
+    position: initial;
+    margin-left: -20px;
+  }
+  .dots-img {
+    width: 100%;
+    padding: 20px 0;
+    margin: 0;
+  }
+  .dots-img-2 {
+    width: 100%;
+    margin: 0;
+    float: unset;
+  }
+  .form {
+    float: unset;
+    display: block;
+    margin: unset;
+  }
+  .outer-div {
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+  }
+  .loan-amount {
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+  }
+}
